@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Name</title>
+  <title>Payment Screen</title>
 
   <!-- Google fonts -->
 
@@ -14,6 +14,40 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+  <!-- section -->
+  <section class="payment-wrapper">
+    <div class="payment-card">
+      <div class="dot-wrapper">
+        <div class="dot dot-active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <!-- HEADER -->
+      <h1 class="payment-title">Payment method</h1>
+
+      <!-- Payment-card-name -->
+      <div class="card-name-wrapper">
+        <img class="card-name-img" src="img/visa.svg" alt="Viza card">
+        <h2 class="card-name">Viza</h2>
+      </div>
+
+      <!-- Payment-card-name -->
+      <div class="card-name-wrapper card-name-wrapper-checked">
+        <img class="card-name-img" src="img/mastercard.svg" alt="Mastercard">
+        <h2 class="card-name">Mastercard</h2>
+      </div>
+
+      <!-- Payment-card-name -->
+      <div class="card-name-wrapper">
+        <img class="card-name-img" src="img/maestro.svg" alt="Maestro card">
+        <h2 class="card-name">Maestro</h2>
+      </div>
+    </div>
+
+    <!-- Next step -->
+    <a href="#" class="payment-next-button">Next step</a>
+  </section>
 
 
 </body>
