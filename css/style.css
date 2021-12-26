@@ -1,9 +1,38 @@
+
+/* Fonts */
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light.woff2') format('woff2'),
+      url('Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'),
+       url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold.woff2') format('woff2'),
+       url('Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Custom Prop */
 :root{
   --text-color: #c1c1c1;
   --title-color: #222;
-
 }
+
 
 /* GLOBAL STYLES */
 
@@ -183,8 +212,4 @@ padding-bottom: 0;
 
 .payment-next-button:hover{
   opacity: 0.8;
-}
-
-.payment-next-button:active{
-
 }
